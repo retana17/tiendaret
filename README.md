@@ -1,2 +1,0 @@
-# tiendaret
-tienda artesanal
