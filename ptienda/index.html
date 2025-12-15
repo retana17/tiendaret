@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Bienvenidos | Tiendita de Artesanías</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+  margin:0;
+  height:100vh;
+  font-family:'Segoe UI', Arial, sans-serif;
+  background:linear-gradient(135deg,#0d47a1,#1e88e5,#42a5f5,#fce4ec);
+  background-size:400% 400%;
+  animation:fondo 12s ease infinite;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+@keyframes fondo{
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+.tarjeta{
+  background:rgba(255,255,255,.95);
+  padding:60px 50px;
+  border-radius:30px;
+  text-align:center;
+  box-shadow:0 15px 40px rgba(0,0,0,.35);
+  max-width:550px;
+}
+
+.logo{
+  width:120px;
+  margin-bottom:20px;
+}
+
+h1{
+  color:#0d47a1;
+  font-size:2.5em;
+  margin-bottom:10px;
+}
+
+p{
+  color:#444;
+  font-size:1.15em;
+  line-height:1.5em;
+}
+
+.boton{
+  margin-top:35px;
+  background:linear-gradient(90deg,#1e88e5,#0d47a1);
+  color:white;
+  border:none;
+  border-radius:40px;
+  padding:18px 45px;
+  font-size:1.2em;
+  cursor:pointer;
+  box-shadow:0 6px 15px rgba(30,136,229,.6);
+  transition:transform .3s, box-shadow .3s;
+}
+
+.boton:hover{
+  transform:scale(1.05);
+  box-shadow:0 10px 25px rgba(13,71,161,.7);
+}
+
+.footer{
+  margin-top:30px;
+  font-size:.9em;
+  color:#777;
+}
+</style>
+</head>
+<body>
+
+<div class="tarjeta">
+
+
+  <img src="l.png" class="logo" alt="Logo">
+
+  <h1>Tienda de Artesanías</h1>
+  <p>
+    Descubre productos artesanales únicos, hechos a mano con tradición,
+    cultura y calidad mexicana.
+  </p>
+
+  <!-- BOTÓN PRINCIPAL -->
+  <button class="boton" onclick="location.href='cuerpo.html'">
+    Entrar a la Tienda
+  </button>
+
+  
+</div>
+
+</body>
+</html>
